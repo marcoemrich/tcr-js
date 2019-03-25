@@ -1,0 +1,23 @@
+{
+  "name": "tcr-js",
+  "version": "1.0.0",
+  "description": "Quickstart for TCR with JavaScript/Jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "bash -c 'npm jest && git commit -am working || git reset --hard'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcoemrich/tcr-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcoemrich/tcr-js/issues"
+  },
+  "homepage": "https://github.com/marcoemrich/tcr-js#readme",
+  "devDependencies": {
+    "jest": "^24.5.0"
+  }
+}
