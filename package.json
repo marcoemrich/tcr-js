@@ -4,7 +4,8 @@
   "description": "Quickstart for TCR with JavaScript/Jest",
   "main": "index.js",
   "scripts": {
-    "test": "bash -c 'jest && git commit -am working || git reset --hard'"
+    "test": "bash -c 'jest && git commit -am working || git reset --hard'",
+    "test:light": "bash -c 'jest && git commit -am working || git checkout -- src/kata.js'"
   },
   "repository": {
     "type": "git",
